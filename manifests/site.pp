@@ -74,12 +74,39 @@ node default {
   ruby::version { '2.1.0': }
   ruby::version { '2.1.1': }
 
+  # extra modules
+  include firefox
+  include gimp
+  include heroku
+  include imagemagick
+  include java
+  include memcached
+  include mongodb
+  include mysql
+  include openssl
+  include redis
+  include wget  
+  include zsh
+  include skype
+  include wkhtmltopdf
+  include qt
+  include vagrant
+  include virtualbox  
+  include sublime_text_2
+
+  # sublime text 2
+  sublime_text_2::package { 'Emmet':
+    source => 'sergeche/emmet-sublime'
+  }  
+
   # common, useful packages
   package {
     [
       'ack',
       'findutils',
-      'gnu-tar'
+      'gnu-tar',
+      'libxml2', 
+      'libxslt'
     ]:
   }
 

@@ -59,3 +59,24 @@ github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "firefox", "1.1.7"
+github "gimp", "1.0.0"
+github "heroku", "2.1.1"
+github "imagemagick", "1.2.1"
+github "java", "1.2.0"
+github "memcached", "1.4.0"
+github "mongodb", "1.2.0"
+github "mysql", "1.2.0"
+github "openssl", "1.0.0"
+github "osx", "2.2.2"
+github "redis", "2.1.0"
+github "skype", "1.0.8"
+github "wget", "1.0.0"
+github "wkhtmltopdf", "1.2.1"
+github "zsh", "1.0.0"
+github "qt", "1.2.0"
+github "sublime_text_2", "1.1.2"
+github "vagrant", "3.0.3"
+github "virtualbox", "1.0.10"
+
