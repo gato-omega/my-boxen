@@ -79,4 +79,5 @@ github "qt", "1.2.0"
 github "sublime_text_2", "1.1.2"
 github "vagrant", "3.0.3"
 github "virtualbox", "1.0.10"
+github "prey", "1.0.0", repo: "pauloconnor/puppet-prey"
 

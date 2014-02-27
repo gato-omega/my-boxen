@@ -91,7 +91,8 @@ node default {
   include wkhtmltopdf
   include qt
   include vagrant
-  include virtualbox  
+  include virtualbox
+  include prey
   include sublime_text_2
 
   # sublime text 2
