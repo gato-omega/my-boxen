@@ -85,7 +85,7 @@ node default {
   include mysql
   include openssl
   include redis
-  include wget  
+  include wget
   include zsh
   include skype
   include wkhtmltopdf
@@ -98,7 +98,7 @@ node default {
   # sublime text 2
   sublime_text_2::package { 'Emmet':
     source => 'sergeche/emmet-sublime'
-  }  
+  }
 
   # common, useful packages
   package {
@@ -106,7 +106,8 @@ node default {
       'ack',
       'findutils',
       'gnu-tar',
-      'libxml2', 
+      'libxml2',
+      'tree',
       'libxslt'
     ]:
   }
