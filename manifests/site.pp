@@ -94,6 +94,7 @@ node default {
   include virtualbox
   include prey
   include sublime_text_2
+  include postgresapp
 
   # sublime text 2
   sublime_text_2::package { 'Emmet':
