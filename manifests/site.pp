@@ -95,6 +95,9 @@ node default {
   include prey
   include sublime_text_2
   include postgresapp
+  include pcre
+  include swig
+  include graphviz
 
   # sublime text 2
   sublime_text_2::package { 'Emmet':
