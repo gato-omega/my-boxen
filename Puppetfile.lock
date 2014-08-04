@@ -24,11 +24,6 @@ GITHUBTARBALL
     gcc (2.0.100)
 
 GITHUBTARBALL
-  remote: boxen/puppet-gimp
-  specs:
-    gimp (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
     git (2.3.1)
@@ -194,6 +189,11 @@ GITHUBTARBALL
     postgresapp (9.3.5.0.0)
 
 GITHUBTARBALL
+  remote: mavcunha/puppet-gimp
+  specs:
+    gimp (1.0.3)
+
+GITHUBTARBALL
   remote: pauloconnor/puppet-prey
   specs:
     prey (1.0.0)
@@ -219,7 +219,7 @@ DEPENDENCIES
   firefox (= 1.1.7)
   foreman (= 1.2.0)
   gcc (= 2.0.100)
-  gimp (= 1.0.0)
+  gimp (= 1.0.3)
   git (= 2.3.1)
   go (= 1.1.0)
   graphviz (= 1.0.0)

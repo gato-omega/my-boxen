@@ -61,7 +61,7 @@ github "xquartz",     "1.1.1"
 # https://github.com/boxen.
 
 github "firefox", "1.1.7"
-github "gimp", "1.0.0"
+github "gimp", "1.0.3", :repo => "mavcunha/puppet-gimp"
 github "heroku", "2.1.1"
 github "imagemagick", "1.2.1"
 github "java", "1.2.0"
