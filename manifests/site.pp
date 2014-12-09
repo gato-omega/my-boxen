@@ -98,6 +98,7 @@ node default {
   include pcre
   include swig
   include graphviz
+  include rabbitmq
 
   # sublime text 2
   sublime_text_2::package { 'Emmet':

@@ -84,4 +84,5 @@ github "postgresapp", "9.3.5.0.0", :repo => "gato-omega/puppet-postgresapp"
 github "pcre", "1.0.0"
 github "swig", "1.0.0"
 github "graphviz", "1.0.0"
+github "rabbitmq", "0.5.0", :repo => "crowdtap/puppet-rabbitmq"
 
